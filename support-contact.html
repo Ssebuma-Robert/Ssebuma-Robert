@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wildlife Conservation Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2e8b57;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2e8b57;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .donation-info {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .donation-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .donation-info li {
+            margin-bottom: 10px;
+        }
+        .donation-btn {
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .donation-btn:hover {
+            background-color: #245e41;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .contact-form button:hover {
+            background-color: #245e41;
+        }
+        #map {
+            width: 100%;
+            height: 400px;
+            border: 1px solid #ddd;
+        }
+        footer {
+            text-align: center;
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="wildlife-projects.htm">Wildlife Projects</a>
+        <a href="events-education.html">Events & Education</a>
+    </nav>
+<header>
+    <h1>Wildlife Conservation Support (UWCS)</h1>
+    <p>Support our mission to protect endangered wildlife around the world</p>
+</header>
+
+<div class="container">
+
+    <!-- Donation Section -->
+    <div class="section donation-info">
+        <h2>How You Can Help</h2>
+        <p>Your generous donations will help us fund critical wildlife protection initiatives, research, and conservation programs.</p>
+        <ul>
+            <li>Funding Needs:</li>
+            <li>- Habitat restoration projects</li>
+            <li>- Anti-poaching efforts</li>
+            <li>- Education and awareness programs</li>
+            <li>- Scientific research on endangered species</li>
+        </ul>
+        <p>Your contribution makes a direct impact. Together, we can safeguard the future of wildlife.</p>
+        <a href="#" class="donation-btn">Donate Now</a>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="section contact-form">
+        <h2>Contact Us</h2>
+        <p>For inquiries or volunteering opportunities, please fill out the form below.</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Map Section -->
+    <div class="section">
+        <h2>Key Locations</h2>
+        <p>Our conservation programs are active in these key locations.</p>
+        <!-- Replace the URL with the actual location you'd like to show on Google Maps -->
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12557.369255970372!2d-73.935242!3d40.730610!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab62d5ccdf%3A0x5d5503129e205cd7!2sNew%20York!5e0!3m2!1sen!2sus!4v1637142294202!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Wildlife Conservation Support. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
